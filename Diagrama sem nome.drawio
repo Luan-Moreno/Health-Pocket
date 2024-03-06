@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T19:59:34.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="x170GmONeTGbKzM5ZIS7" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T10:59:48.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cPRkgiWdDJxmq_5W8IUu" version="24.0.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Solicitação de serviço" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="120" width="840" height="240" as="geometry" />
+          <mxGeometry x="80" y="120" width="1520" height="240" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="dNxyNK7c78bLwvsdeMH5-19" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -13,31 +13,62 @@
             <mxPoint x="300" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="Cliente" style="swimlane;html=1;startSize=60;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" width="820" height="120" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Cliente" style="swimlane;html=1;startSize=60;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" width="1500" height="240" as="geometry">
+            <mxRectangle x="20" width="820" height="60" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-23" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="80" y="40" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-1qxihPrmVjvP6yf5FIc-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+        <mxCell id="-1qxihPrmVjvP6yf5FIc-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="60" as="sourcePoint" />
             <mxPoint x="190" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-1qxihPrmVjvP6yf5FIc-4" value="Visualizar as opções de médicos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+        <mxCell id="-1qxihPrmVjvP6yf5FIc-4" value="Visualizar as opções de médicos" style="rounded=1;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="194" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Health Pocket&lt;br&gt;médico" style="swimlane;html=1;startSize=60;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="120" width="820" height="120" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Health Pocket&lt;br&gt;médico" style="swimlane;html=1;startSize=60;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+          <mxGeometry y="120" width="1500" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-1qxihPrmVjvP6yf5FIc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="-1qxihPrmVjvP6yf5FIc-7">
+        <mxCell id="-1qxihPrmVjvP6yf5FIc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="dNxyNK7c78bLwvsdeMH5-22" source="-1qxihPrmVjvP6yf5FIc-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-1qxihPrmVjvP6yf5FIc-7" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="-1qxihPrmVjvP6yf5FIc-7" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="240" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vIxtmWt3vzxnquXUV1y1-1" value="Enviar formulário" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="340" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIxtmWt3vzxnquXUV1y1-7" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="60" as="sourcePoint" />
+            <mxPoint x="590" y="-60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="60" />
+              <mxPoint x="510" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIxtmWt3vzxnquXUV1y1-11" value="Análise do formulário" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="840" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIxtmWt3vzxnquXUV1y1-8" value="Responder formulário" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="590" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIxtmWt3vzxnquXUV1y1-10" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="vIxtmWt3vzxnquXUV1y1-8" target="vIxtmWt3vzxnquXUV1y1-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="180" as="sourcePoint" />
+            <mxPoint x="850" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="60" />
+              <mxPoint x="780" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
